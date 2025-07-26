@@ -1,0 +1,150 @@
+
+li{
+    list-style: none;
+    display: inline-block;
+    justify-items: space-between;
+    
+}
+header{
+    justify-content:space-between ;
+   
+}
+header div{
+    display: inline-block;
+}
+
+nav ul{
+    justify-content: space-around;
+    display:flex;
+    background-color: chartreuse;
+    padding:5px;
+    width:100%;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+/* .port{
+    
+    display:flex;
+    margin: 0px;
+    font-size: 20px;
+    left:0px;
+    right:0px;
+    
+} */
+.home{
+    display: inline-block;
+    
+}
+.home:hover{
+    background-color: aqua;
+}
+.about{
+    display: inline-block;
+    
+}
+.about:hover{
+    background-color: aqua;
+}
+.Projects{
+    display: inline-block;
+}
+.Projects:hover{
+    background-color: aqua;
+}
+.contact{
+    display: inline-block;
+}
+.name{
+    padding:40px;
+    margin-left:200px;
+
+}
+.name:hover{
+    color:blue;
+}
+.n{
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.objective{
+    width:600px;
+    margin-top:200px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-left: 350px;
+
+}
+.objective:hover{
+    zoom: 1.1px;
+    font: 20px;
+    color: rgb(236, 10, 86);
+}
+.pic{
+    
+    display: flex;
+    position:absolute;
+    right: 5px;
+    border-radius: 10px;
+    top:60px;
+    
+    
+
+}
+.skills{
+    display:inline-block;
+    border-radius: 0px;
+
+    
+}
+.card{
+    display:inline-block;
+    padding:50px;
+    border-radius: 60px;
+    background-color: bisque;
+    box-shadow:2px 2px 2px 2px;
+    margin:80px;
+
+    
+}
+.card:hover{
+    background-color: chartreuse;
+    
+}
+.internships{
+    text-align: center;
+}
+.long{
+    display:inline-block;
+    padding:10px;
+}
+.line{
+    text-align: center;
+}
+    
+
+.websites{
+    display:inline-block;
+    position: fixed;
+    top:500px;
+    right: 0%;
+    height:100px;
+    background-color: white;
+}
+.JSD{
+    text-align: center;
+    font-size:20px;
+}
+.JSD h3:hover{
+    color: blue;
+}
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
