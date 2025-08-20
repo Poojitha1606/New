@@ -1,0 +1,43 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="CodeAlpha.css" />
+</head>
+<body>
+
+  <h1 class="title">Image Gallery</h1>
+
+  <!-- Filter Buttons -->
+  <div class="filter-btns">
+    <button onclick="filterImages('all')">All Images</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('city')">City</button>
+    <button onclick="filterImages('animals')">Animals</button>
+  </div>
+
+  <!-- Gallery Grid -->
+  <div class="gallery">
+    <div class="image-card nature"><img src="https://picsum.photos/id/1015/400/300" alt="Nature"></div>
+    <div class="image-card city"><img src="https://picsum.photos/id/1011/400/300" alt="City"></div>
+    <div class="image-card animals"><img src="https://picsum.photos/id/1025/400/300" alt="Animals"></div>
+    <div class="image-card nature"><img src="https://picsum.photos/id/1016/400/300" alt="Nature"></div>
+    <div class="image-card city"><img src="https://picsum.photos/id/1031/400/300" alt="City"></div>
+    <div class="image-card animals"><img src="https://picsum.photos/id/1024/400/300" alt="Animals"></div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" src="" alt="">
+    <div class="nav-buttons">
+      <span onclick="prevImage()">&#10094;</span>
+      <span onclick="nextImage()">&#10095;</span>
+    </div>
+  </div>
+
+  <script src="CodeAlpha.js"></script>
+</body>
+</html>
